@@ -1,10 +1,8 @@
 name: Demo Workflow
 on:
   push:
-    branches: [ child-branch ]
-  pull_request:
-    branches: [ child-branch ]
-
+    branches: 
+      - child-branch
 
 jobs:
   demo:
