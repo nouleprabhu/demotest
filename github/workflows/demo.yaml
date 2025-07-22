@@ -1,0 +1,25 @@
+name: Demo Workflow
+ 
+on:
+  push:
+    branches:
+      - main
+ 
+jobs:
+  demo:
+    runs-on: ununtu-latest
+ 
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+     
+      - name: list files
+        run: ls -l
+ 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+ 
+      - name: Run python script
+        run: python hello.py  
