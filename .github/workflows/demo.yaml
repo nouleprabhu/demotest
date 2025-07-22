@@ -2,7 +2,8 @@ name: Demo Workflow
 on:
   push:
     branches: 
-      - main
+      - child-branch
+
 jobs:
   demo:
     runs-on: ubuntu-latest
