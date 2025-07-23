@@ -2,7 +2,7 @@ name: Demo Workflow
 on:
   push:
     branches: 
-      - child-branch
+      - main
 
 jobs:
   demo:
