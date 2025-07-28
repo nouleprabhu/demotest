@@ -3,7 +3,7 @@ Example 3: Environment Variables + Secrets + Manual Trigger
 Use hardcoded environment variables, GitHub Secrets, and GitHub Variables in a manually triggered workflow.
 
 📂 Folder Structure
-Demo_01/
+demotest/
 ├── 03-env-vars-and-secrets/
 │   └── README.md
 └── .github/
