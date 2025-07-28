@@ -11,6 +11,7 @@ demotest/
     └── workflows/
         └── 02-static-site.yml
 
+
 🎯 What You'll Learn
 - GitHub Pages setup and static site hosting
 - Deployment automation using workflows
