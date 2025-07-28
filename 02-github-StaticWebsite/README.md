@@ -3,7 +3,7 @@ Example 2: Deploy Static Website
 Auto-deploy a static HTML page using GitHub Pages + GitHub Actions.
 
 📂 Folder Structure
-Demo_01/
+demotest/
 ├── 02-github-StaticWebsite/
 │   ├── index.html
 │   └── README.md
