@@ -1,0 +1,24 @@
+name: Environment Variables, Secrets
+
+on:
+  workflow_dispatch:
+
+env:
+  LOCAL_USER: "Prabhu N"
+  ENVIRONMENT: "DevOps Training"
+
+jobs:
+  show-env:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🔹 Print hardcoded env values
+        run: |
+          echo "👤 Local User: $LOCAL_USER"
+          echo "🌍 Environment: $ENVIRONMENT"
+      - name: 🔐 Print Secrets and Variables
+        env:
+          USER_FROM_SECRET: ${{ secrets.USER_NAME }}
+          PROJECT_FROM_VAR: ${{ vars.PROJECT_NAME }}
+        run: |
+          echo "🔐 Secret User: $USER_FROM_SECRET"
+          echo "⚙️ Project: $PROJECT_FROM_VAR"
