@@ -1,4 +1,4 @@
-Example 2: Deploy Static Website
+Example 2: Deploy Static_Website
 
 Auto-deploy a static HTML page using GitHub Pages + GitHub Actions.
 
