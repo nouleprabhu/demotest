@@ -2,7 +2,7 @@ import platform
 import datetime
 
 def print_welcome_message():
-    print("🚀 Welcomedfd to GitHub Actions Workshop!")
+    print("🚀 Welcomed to GitHub Actions Workshop!")
     print(f"📅 Date: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"💻 Running on: {platform.system()} {platform.release()}")
 
