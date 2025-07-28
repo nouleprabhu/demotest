@@ -20,4 +20,4 @@ jobs:
           python-version: '3.11'
  
       - name: Run python script
-        run: python hello.py  
+        run: python 00-hello/hello.py  
