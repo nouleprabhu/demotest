@@ -1,0 +1,13 @@
+name: Pull Request Trigger Example
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: SonarQube Scan
+        run: echo "🔍 Scanning code using SonarQube"
