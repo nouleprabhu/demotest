@@ -1,4 +1,4 @@
-Example 4: Trigger a workflow based on pull request
+Example 4: Trigger a work flow based on pull request
 
 📁 Folder Structure
 demotest/
